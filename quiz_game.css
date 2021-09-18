@@ -1,0 +1,41 @@
+body {
+	background-image: url('Quiz.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+
+	.login_div1 , .login_div2
+	{
+		background: rgba(13, 114, 247, 0.37);
+		padding: 10px;
+		float:none;
+		border-radius: 50px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 15px;
+}
+#output
+{
+background: rgb(219, 22, 137);
+border-radius: 50px;
+border-top: 10px solid #740b0b;
+padding: 30px;
+float: left;
+text-align: left;
+}
+h3{
+	color:white;
+}
